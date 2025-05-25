@@ -1,0 +1,58 @@
+.user-layout {
+  display: flex;
+}
+.user-content {
+  margin-left: 220px;
+  padding: 30px;
+  width: 100%;
+}
+.loading {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+.aquarium-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 20px;
+}
+.aquarium-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  padding: 20px;
+  width: 350px;
+  text-decoration: none;
+  color: #2c3e50;
+  transition: box-shadow 0.2s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.aquarium-card:hover {
+  box-shadow: 0 4px 16px rgba(52,152,219,0.15);
+  transform: translateY(-2px) scale(1.02);
+}
+.aquarium-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  color: #3498db;
+}
+.btn-create {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn-create:hover {
+  background: #219150;
+}

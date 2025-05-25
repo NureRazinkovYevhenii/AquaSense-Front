@@ -1,0 +1,176 @@
+.user-layout {
+  display: flex;
+}
+.user-content {
+  margin-left: 220px;
+  padding: 30px;
+  width: 100%;
+}
+.loading {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+.error {
+  color: #e74c3c;
+  font-size: 1.1rem;
+  margin: 20px 0;
+}
+.actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.actions a {
+  background: #3498db;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.actions a:hover {
+  background: #217dbb;
+}
+.btn-delete {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  width: 100px;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-delete:hover {
+  background: #c0392b;
+}
+
+.section-divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.schedule-form {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.schedule-form h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.schedule-form h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.schedule-form .form-group {
+  margin-bottom: 15px;
+}
+
+/* Чекбокс и текст в одну линию */
+.schedule-form .form-group.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.schedule-form input[type="time"],
+.schedule-form input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.schedule-form input[type="checkbox"] {
+  margin: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.schedule-form input:disabled {
+  background-color: #e9ecef;
+  opacity: 0.7;
+}
+
+.feed-times-group .feed-time-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.feed-times-group .feed-time-item input[type="time"] {
+  margin-right: 10px;
+  flex-grow: 1;
+  max-width: 150px;
+}
+
+.btn-remove-time, .btn-add-time {
+  padding: 6px 10px;
+  font-size: 0.9em;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-add-time {
+  background-color: #4CAF50;
+  margin-top: 5px;
+}
+
+.btn-remove-time:hover {
+  background-color: #d32f2f;
+}
+.btn-add-time:hover {
+  background-color: #388E3C;
+}
+
+.btn-remove-time:disabled, .btn-add-time:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.btn-save-schedule {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.2s;
+}
+
+.btn-save-schedule:hover {
+  background-color: #0056b3;
+}
+
+.btn-save-schedule:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.schedule-error {
+    color: red;
+    margin-bottom: 10px;
+}
